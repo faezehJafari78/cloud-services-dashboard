@@ -3,6 +3,7 @@
 A Cloud Services Management Dashboard built with **Next.js**, **TypeScript**, and modern frontend architecture.
 
 ## Tech Stack
+
 - Next.js (App Router)
 - TypeScript
 - Tailwind CSS
@@ -10,7 +11,8 @@ A Cloud Services Management Dashboard built with **Next.js**, **TypeScript**, an
 - React Query
 - Recharts
 
-## Features 
+## Features
+
 - Authentication (Mock)
 - Real-time metrics dashboard
 - Server management
@@ -22,3 +24,4 @@ A Cloud Services Management Dashboard built with **Next.js**, **TypeScript**, an
 ```bash
 npm install
 npm run dev
+```
