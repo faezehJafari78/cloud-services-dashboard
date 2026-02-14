@@ -1,13 +1,13 @@
-import axios from 'axios';
+import axios from "axios";
 
 export const api = axios.create({
-    baseURL: '/api',
-    timeout: 10000,
+  baseURL: "/api",
+  timeout: 10000,
 });
 
 api.interceptors.response.use(
-    (response) => response,
-    (error) => {
-        return Promise.reject(error);
-    }
+  (response) => response,
+  (error) => {
+    return Promise.reject(error);
+  },
 );
